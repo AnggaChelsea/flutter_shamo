@@ -70,7 +70,7 @@ class HomePage extends StatelessWidget {
                 color: Colors.blue,
               ),
               child: Text(
-                "All Shoes",
+                "Semua Type",
                 style: TextStyle(
                     color: Colors.white, fontSize: 13, fontWeight: medium),
               ),
@@ -86,7 +86,7 @@ class HomePage extends StatelessWidget {
                 color: transparentButtonColor,
               ),
               child: Text(
-                "Running",
+                "Putsal",
                 style: TextStyle(
                     color: Color.fromARGB(255, 58, 58, 57),
                     fontSize: 13,
@@ -104,7 +104,7 @@ class HomePage extends StatelessWidget {
                 color: transparentButtonColor,
               ),
               child: Text(
-                "Training",
+                "Volly",
                 style: TextStyle(
                     color: Color.fromARGB(255, 58, 58, 57),
                     fontSize: 13,
@@ -140,7 +140,7 @@ class HomePage extends StatelessWidget {
                 color: transparentButtonColor,
               ),
               child: Text(
-                "Hiking",
+                "Bola",
                 style: TextStyle(
                     color: Color.fromARGB(255, 58, 58, 57),
                     fontSize: 13,
@@ -157,7 +157,7 @@ class HomePage extends StatelessWidget {
         margin: EdgeInsets.only(
             top: defaultMargin, left: defaultMargin, right: defaultMargin),
         child: Text(
-          'Popular Products',
+          'Popular Sport',
           style: TextStyle(
             fontSize: 22,
             color: Colors.white,

@@ -11,7 +11,7 @@ Color tabNavNoActive = Color(0x808191);
 
 Color colorText = Color(0x2E2E2E);
 
-Color primaryColor = Color.fromARGB(237, 59, 59, 63);
+Color primaryColor = Color.fromARGB(236, 227, 237, 33);
 Color textColorWhite = Colors.white54;
 Color secondaryColor = Color.fromARGB(0, 65, 200, 223);
 Color alertColor = Color(0x00ed6363);
