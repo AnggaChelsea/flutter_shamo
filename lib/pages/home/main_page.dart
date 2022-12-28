@@ -24,7 +24,7 @@ class _MainPageState extends State<MainPage> {
         backgroundColor: Colors.blue,
         child: Image.asset(
           "assets/icon_cart.png",
-          width: 20,
+          height: 20,
         ),
       );
     }
@@ -37,7 +37,7 @@ class _MainPageState extends State<MainPage> {
           clipBehavior: Clip.antiAlias,
           child: BottomNavigationBar(
               currentIndex: currentIndex,
-              backgroundColor: Colors.black12,
+              backgroundColor: Color.fromARGB(255, 26, 26, 26),
               onTap: (value) => {
                     print(value),
                     setState(
@@ -53,8 +53,10 @@ class _MainPageState extends State<MainPage> {
                     margin: EdgeInsets.only(top: 10),
                     child: Image.asset(
                       "assets/icon_home.png",
-                      width: 20,
-                      color: currentIndex == 0 ? Colors.blue : Colors.green,
+                      height: 20,
+                      color: currentIndex == 0
+                          ? Colors.blue
+                          : Color.fromARGB(255, 89, 85, 85),
                     ),
                   ),
                   label: '',
@@ -65,7 +67,9 @@ class _MainPageState extends State<MainPage> {
                     child: Image.asset(
                       "assets/icon_chat.png",
                       width: 21,
-                      color: currentIndex == 1 ? Colors.blue : Colors.green,
+                      color: currentIndex == 1
+                          ? Colors.blue
+                          : Color.fromARGB(255, 89, 85, 85),
                     ),
                   ),
                   label: '',
@@ -74,9 +78,11 @@ class _MainPageState extends State<MainPage> {
                   icon: Container(
                     margin: EdgeInsets.only(top: 10),
                     child: Image.asset(
-                      "assets/button_whist.png",
-                      width: 20,
-                      color: currentIndex == 2 ? Colors.blue : Colors.green,
+                      "assets/icon_bottom_love.png",
+                      height: 20,
+                      color: currentIndex == 2
+                          ? Colors.blue
+                          : Color.fromARGB(255, 89, 85, 85),
                     ),
                   ),
                   label: '',
@@ -85,9 +91,11 @@ class _MainPageState extends State<MainPage> {
                   icon: Container(
                     margin: EdgeInsets.only(top: 10),
                     child: Image.asset(
-                      "assets/icon_avatar.png",
-                      width: 20,
-                      color: currentIndex == 3 ? Colors.blue : Colors.green,
+                      "assets/icon_bottom_profile.png",
+                      height: 20,
+                      color: currentIndex == 3
+                          ? Colors.blue
+                          : Color.fromARGB(255, 89, 85, 85),
                     ),
                   ),
                   label: '',

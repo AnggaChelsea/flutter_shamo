@@ -23,20 +23,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-// class HomePage extends StatelessWidget {
-//   const HomePage({Key? key}) : super(key: key);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     // ignore: prefer_const_constructors
-//     return Scaffold(
-//       body: Center(
-//           child: Text(
-//         "hallo semuanya",
-//         style: secondaryTextStyle.copyWith(
-//             fontSize: 50, backgroundColor: Colors.pink),
-//       )),
-//     );
-//   }
-// }

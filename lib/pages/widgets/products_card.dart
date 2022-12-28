@@ -12,7 +12,7 @@ class ProductsCard extends StatelessWidget {
       margin: EdgeInsets.only(right: defaultMargin),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        color: primaryTextColor,
+        color: Color.fromARGB(255, 241, 240, 242),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

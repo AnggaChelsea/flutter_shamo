@@ -22,6 +22,7 @@ Color bgColor3 = Color(0x00242231);
 Color primaryTextColor = Color.fromARGB(237, 241, 240, 242);
 Color secondaryTextColor = Color(0x00999999);
 Color subtitleColor = Color(0xff504f5e);
+Color header = Color.fromARGB(255, 19, 19, 20);
 
 TextStyle primaryTextStyle = GoogleFonts.poppins(color: primaryTextColor);
 TextStyle secondaryTextStyle = GoogleFonts.poppins(color: secondaryTextColor);

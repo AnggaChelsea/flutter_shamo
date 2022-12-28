@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:input_form_field/input_form_field.dart';
+import 'package:shamo/pages/widgets/chat_bubble.dart';
 import 'package:shamo/theme.dart';
 
 class DetailChat extends StatelessWidget {
@@ -109,10 +110,28 @@ class DetailChat extends StatelessWidget {
       );
     }
 
+    Widget content() {
+      return ListView(
+        padding: EdgeInsets.symmetric(horizontal: defaultMargin),
+        children: [
+          ChatBubble(
+            isSender: true,
+            text: 'Hi, This item is still available?',
+            hasProduct: true,
+          ),
+          ChatBubble(
+            isSender: false,
+            text:
+                'Good night, This item is only available in size 42 and 43 cd cd cd cd',
+          ),
+        ],
+      );
+    }
+
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.white54,
+        backgroundColor: Color.fromARGB(255, 19, 19, 20),
         title: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -150,6 +169,7 @@ class DetailChat extends StatelessWidget {
         ),
       ),
       bottomNavigationBar: textInput(),
+      body: content(),
     );
   }
 }
